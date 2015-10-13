@@ -1,2 +1,2 @@
 # UINButton
-Alternative of UIButton highly customizable
+An alternative UIButton highly customizable
