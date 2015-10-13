@@ -13,6 +13,7 @@
 		A9F2DA451BCD9420002E9C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F2DA431BCD9420002E9C85 /* Main.storyboard */; };
 		A9F2DA471BCD9420002E9C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F2DA461BCD9420002E9C85 /* Assets.xcassets */; };
 		A9F2DA4A1BCD9420002E9C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F2DA481BCD9420002E9C85 /* LaunchScreen.storyboard */; };
+		A9F2DA531BCD98D3002E9C85 /* UINButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F2DA521BCD98D3002E9C85 /* UINButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A9F2DA461BCD9420002E9C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9F2DA491BCD9420002E9C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9F2DA4B1BCD9420002E9C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F2DA511BCD98D3002E9C85 /* UINButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINButton.h; sourceTree = "<group>"; };
+		A9F2DA521BCD98D3002E9C85 /* UINButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A9F2DA3E1BCD9420002E9C85 /* AppDelegate.m */,
 				A9F2DA401BCD9420002E9C85 /* ViewController.h */,
 				A9F2DA411BCD9420002E9C85 /* ViewController.m */,
+				A9F2DA511BCD98D3002E9C85 /* UINButton.h */,
+				A9F2DA521BCD98D3002E9C85 /* UINButton.m */,
 				A9F2DA431BCD9420002E9C85 /* Main.storyboard */,
 				A9F2DA461BCD9420002E9C85 /* Assets.xcassets */,
 				A9F2DA481BCD9420002E9C85 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				A9F2DA421BCD9420002E9C85 /* ViewController.m in Sources */,
 				A9F2DA3F1BCD9420002E9C85 /* AppDelegate.m in Sources */,
+				A9F2DA531BCD98D3002E9C85 /* UINButton.m in Sources */,
 				A9F2DA3C1BCD9420002E9C85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +306,7 @@
 				A9F2DA501BCD9420002E9C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
