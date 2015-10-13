@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A95F514C1BCD997300D5C820 /* UINButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A95F514B1BCD997300D5C820 /* UINButton.m */; settings = {ASSET_TAGS = (); }; };
 		A9F2DA3C1BCD9420002E9C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F2DA3B1BCD9420002E9C85 /* main.m */; };
 		A9F2DA3F1BCD9420002E9C85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F2DA3E1BCD9420002E9C85 /* AppDelegate.m */; };
 		A9F2DA421BCD9420002E9C85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F2DA411BCD9420002E9C85 /* ViewController.m */; };
 		A9F2DA451BCD9420002E9C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F2DA431BCD9420002E9C85 /* Main.storyboard */; };
 		A9F2DA471BCD9420002E9C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F2DA461BCD9420002E9C85 /* Assets.xcassets */; };
 		A9F2DA4A1BCD9420002E9C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F2DA481BCD9420002E9C85 /* LaunchScreen.storyboard */; };
-		A9F2DA531BCD98D3002E9C85 /* UINButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F2DA521BCD98D3002E9C85 /* UINButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A95F514A1BCD997300D5C820 /* UINButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINButton.h; sourceTree = "<group>"; };
+		A95F514B1BCD997300D5C820 /* UINButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINButton.m; sourceTree = "<group>"; };
 		A9F2DA371BCD9420002E9C85 /* UINButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F2DA3B1BCD9420002E9C85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9F2DA3D1BCD9420002E9C85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		A9F2DA461BCD9420002E9C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9F2DA491BCD9420002E9C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9F2DA4B1BCD9420002E9C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9F2DA511BCD98D3002E9C85 /* UINButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINButton.h; sourceTree = "<group>"; };
-		A9F2DA521BCD98D3002E9C85 /* UINButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A95F51491BCD997300D5C820 /* UINButton */ = {
+			isa = PBXGroup;
+			children = (
+				A95F514A1BCD997300D5C820 /* UINButton.h */,
+				A95F514B1BCD997300D5C820 /* UINButton.m */,
+			);
+			path = UINButton;
+			sourceTree = "<group>";
+		};
 		A9F2DA2E1BCD9420002E9C85 = {
 			isa = PBXGroup;
 			children = (
@@ -65,8 +74,7 @@
 				A9F2DA3E1BCD9420002E9C85 /* AppDelegate.m */,
 				A9F2DA401BCD9420002E9C85 /* ViewController.h */,
 				A9F2DA411BCD9420002E9C85 /* ViewController.m */,
-				A9F2DA511BCD98D3002E9C85 /* UINButton.h */,
-				A9F2DA521BCD98D3002E9C85 /* UINButton.m */,
+				A95F51491BCD997300D5C820 /* UINButton */,
 				A9F2DA431BCD9420002E9C85 /* Main.storyboard */,
 				A9F2DA461BCD9420002E9C85 /* Assets.xcassets */,
 				A9F2DA481BCD9420002E9C85 /* LaunchScreen.storyboard */,
@@ -156,7 +164,7 @@
 			files = (
 				A9F2DA421BCD9420002E9C85 /* ViewController.m in Sources */,
 				A9F2DA3F1BCD9420002E9C85 /* AppDelegate.m in Sources */,
-				A9F2DA531BCD98D3002E9C85 /* UINButton.m in Sources */,
+				A95F514C1BCD997300D5C820 /* UINButton.m in Sources */,
 				A9F2DA3C1BCD9420002E9C85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
