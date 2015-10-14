@@ -49,6 +49,12 @@
                                                         <color key="value" red="1" green="0.34509803919999998" blue="0.36078431370000003" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="text" value="Red 1"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="highlightBorderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="normalBorderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WeB-LD-kLe" customClass="UINButton">
@@ -66,7 +72,7 @@
                                                         <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightBorderColor">
-                                                        <color key="value" red="1" green="0.34509803919999998" blue="0.36078431370000003" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightBackground">
                                                         <color key="value" red="1" green="0.34509803919999998" blue="0.36078431370000003" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
@@ -153,7 +159,7 @@
                                                         <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightBorderColor">
-                                                        <color key="value" red="0.25490196079999999" green="0.29411764709999999" blue="0.51372549020000002" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightBackground">
                                                         <color key="value" red="0.25490196079999999" green="0.29411764709999999" blue="0.51372549020000002" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
@@ -211,7 +217,7 @@
                                                         <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightBorderColor">
-                                                        <color key="value" red="1" green="0.6588235294" blue="0.29803921570000003" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightBackground">
                                                         <color key="value" red="1" green="0.6588235294" blue="0.29803921570000003" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
@@ -269,7 +275,7 @@
                                                         <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightBorderColor">
-                                                        <color key="value" red="0.20784313730000001" green="0.20784313730000001" blue="0.20784313730000001" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightBackground">
                                                         <color key="value" red="0.20784313730000001" green="0.20784313730000001" blue="0.20784313730000001" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
@@ -298,7 +304,7 @@
                                                         <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightBorderColor">
-                                                        <color key="value" red="0.2666666667" green="0.69411764710000001" blue="0.36078431370000003" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="highlightBackground">
                                                         <color key="value" red="0.2666666667" green="0.69411764710000001" blue="0.36078431370000003" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
@@ -372,6 +378,9 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="400" height="900"/>
+                    <connections>
+                        <outletCollection property="buttons" destination="xJh-QN-5Mi" id="fKQ-gp-Qxw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2A8-uK-ztf" sceneMemberID="firstResponder"/>
             </objects>

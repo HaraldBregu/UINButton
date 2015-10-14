@@ -7,16 +7,20 @@
 //
 
 #import "ViewController.h"
+#import "UINButton.h"
 
 @interface ViewController ()
 
+@property (strong, nonatomic) IBOutletCollection(UINButton) NSArray *buttons;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    for (UINButton *btn in self.buttons) {
+    }
 }
 
 - (void)didReceiveMemoryWarning {
