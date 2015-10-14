@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D5C11E0F9E26592671D8B5BEB0128123B6212BD8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5c0eb8d0-768e-4b2b-8226-56f19757ea65++9388" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D5C11E0F9E26592671D8B5BEB0128123B6212BD8" : 0,
+    "5c0eb8d0-768e-4b2b-8226-56f19757ea65++9388" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "48A4F81E-4881-4A75-AA5B-7D6745B605CD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D5C11E0F9E26592671D8B5BEB0128123B6212BD8" : "UINButton\/",
+    "5c0eb8d0-768e-4b2b-8226-56f19757ea65++9388" : "..\/Dropbox\/widiba"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UINButton",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UINButton.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svnrep\/svn\/BOLAPP",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5c0eb8d0-768e-4b2b-8226-56f19757ea65++9388"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AldoOS\/UINButton.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D5C11E0F9E26592671D8B5BEB0128123B6212BD8"
+    }
+  ]
+}
