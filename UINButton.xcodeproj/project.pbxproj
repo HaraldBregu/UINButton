@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A95F51501BCDA66E00D5C820 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A95F514F1BCDA66E00D5C820 /* README.md */; settings = {ASSET_TAGS = (); }; };
-		A9B12D431BCEC9F200799A3B /* UINButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B12D421BCEC9F200799A3B /* UINButton.m */; settings = {ASSET_TAGS = (); }; };
+		A9B12D461BCECD5200799A3B /* UINButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B12D451BCECD5200799A3B /* UINButton.m */; settings = {ASSET_TAGS = (); }; };
 		A9F2DA3C1BCD9420002E9C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F2DA3B1BCD9420002E9C85 /* main.m */; };
 		A9F2DA3F1BCD9420002E9C85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F2DA3E1BCD9420002E9C85 /* AppDelegate.m */; };
 		A9F2DA421BCD9420002E9C85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F2DA411BCD9420002E9C85 /* ViewController.m */; };
@@ -19,8 +19,8 @@
 
 /* Begin PBXFileReference section */
 		A95F514F1BCDA66E00D5C820 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		A9B12D411BCEC9F200799A3B /* UINButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UINButton.h; path = ../../../../Dropbox/widiba/widiba/widiba/UINButton/UINButton.h; sourceTree = "<group>"; };
-		A9B12D421BCEC9F200799A3B /* UINButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UINButton.m; path = ../../../../Dropbox/widiba/widiba/widiba/UINButton/UINButton.m; sourceTree = "<group>"; };
+		A9B12D441BCECD5200799A3B /* UINButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINButton.h; sourceTree = "<group>"; };
+		A9B12D451BCECD5200799A3B /* UINButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINButton.m; sourceTree = "<group>"; };
 		A9F2DA371BCD9420002E9C85 /* UINButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F2DA3B1BCD9420002E9C85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9F2DA3D1BCD9420002E9C85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,8 +47,8 @@
 		A95F51491BCD997300D5C820 /* UINButton */ = {
 			isa = PBXGroup;
 			children = (
-				A9B12D411BCEC9F200799A3B /* UINButton.h */,
-				A9B12D421BCEC9F200799A3B /* UINButton.m */,
+				A9B12D441BCECD5200799A3B /* UINButton.h */,
+				A9B12D451BCECD5200799A3B /* UINButton.m */,
 			);
 			path = UINButton;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 				A9F2DA3F1BCD9420002E9C85 /* AppDelegate.m in Sources */,
 				A95F51501BCDA66E00D5C820 /* README.md in Sources */,
 				A9F2DA3C1BCD9420002E9C85 /* main.m in Sources */,
-				A9B12D431BCEC9F200799A3B /* UINButton.m in Sources */,
+				A9B12D461BCECD5200799A3B /* UINButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
