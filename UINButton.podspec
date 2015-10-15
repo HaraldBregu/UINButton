@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = "An alternative UIButton highly customizable"
 
   s.description  = <<-DESC
-                    An alternative UIButton highly customizable
+                    UINButton is an alternative of UIButton designed by Apple. You can simply use the storyboard to change the color, fontname, size, border
                    DESC
 
   s.homepage     = "https://github.com/HaraldBregu/UINButton"
