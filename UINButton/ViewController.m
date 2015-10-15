@@ -19,8 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    for (UINButton *btn in self.buttons) {
-    }
 }
 
 - (void)didReceiveMemoryWarning {
