@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
 
   s.author             = { "Harald " => "harald.bregu@gmail.com" }
-  s.source           = { :git => "https://github.com/HaraldBregu/UINButton.git", :tag => s.version }
+  s.source           = { :git => "https://github.com/HaraldBregu/UINButton.git", :tag => "0.0.1.LOCAL" }
   s.ios.platform = :ios, "8.0"
   s.ios.deployment_target = '8.0'
 
