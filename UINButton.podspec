@@ -16,4 +16,8 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
   s.ios.platform = :ios, "9.0"
+  s.ios.deployment_target = '8.0'
+  s.requires_arc = true
+  s.ios.source_files = 'UINButton/UINButton/*.{h,m}'
+
 end
