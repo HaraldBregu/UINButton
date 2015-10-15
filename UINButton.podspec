@@ -6,7 +6,6 @@ Pod::Spec.new do |s|
   s.summary      = "An alternative UIButton highly customizable"
 
   s.description  = <<-DESC
-        Carlos is a small set of classes, global functions and convenience operators to realize custom, flexible and powerful cache layers in your iOS, Watch OS 2, tvOS and Mac OS X applications.
                    DESC
 
   s.homepage     = "https://github.com/HaraldBregu/UINButton"
