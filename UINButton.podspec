@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = "An alternative UIButton highly customizable"
 
   s.description  = <<-DESC
+                    An alternative UIButton highly customizable
                    DESC
 
   s.homepage     = "https://github.com/HaraldBregu/UINButton"
@@ -14,7 +15,7 @@ Pod::Spec.new do |s|
 
 
   s.author             = { "Harald " => "harald.bregu@gmail.com" }
-
+  s.source           = { :git => "https://github.com/HaraldBregu/UINButton.git", :tag => s.version.to_s }
   s.ios.platform = :ios, "8.0"
   s.ios.deployment_target = '8.0'
 
