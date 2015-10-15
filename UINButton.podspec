@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/HaraldBregu/UINButton.git',
     :tag => s.version.to_s
   }
-  
+  s.ios.platform = :ios, "9.0"
 end
